@@ -1,0 +1,58 @@
+.error {
+  font-size:small;
+  color:red;
+}
+
+.navbar a{
+  color: white;
+}
+
+.navbar li a:hover {
+  background: orange;
+}
+
+.navbar-custom{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+header{
+  height: 450px;
+  padding: 150px 50px;
+  color: white;
+}
+header h1{
+  font-size: 50px;
+}
+
+table#daftar, th, td{
+  border: 1px ;
+  padding: 10px;
+}
+
+table#daftar {
+  border-spacing: 10px;
+}
+
+#umum {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#umum td, #umum th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#umum tr:nth-child(even){background-color: #f2f2f2;}
+
+#umum tr:hover {background-color: #ddd;}
+
+#umum th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
